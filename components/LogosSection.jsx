@@ -4,19 +4,12 @@ export default function LogosSection() {
       id="logos"
       className="relative w-full min-h-screen flex items-center justify-center py-20 px-4 md:px-12 bg-[#F9F3E9][#18181b]"
     >
-      <div
-        className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"
-      >
-        
+      <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <div className="lg:col-span-4 flex flex-col justify-center h-full">
-          <p
-            className="text-sm md:text-base font-medium tracking-wide opacity-80 mb-6 uppercase"
-          >
+          <p className="text-sm md:text-base font-medium tracking-wide opacity-80 mb-6 uppercase">
             Portfolio - Logofolio
           </p>
-          <h2
-            className="text-6xl md:text-8xl font-display text-logos-primary[#5f7cdc] uppercase tracking-tight leading-none mb-6"
-          >
+          <h2 className="text-6xl md:text-8xl font-display text-logos-primary[#5f7cdc] uppercase tracking-tight leading-none mb-6">
             Logofolio
           </h2>
           <p className="text-base md:text-lg leading-relaxed opacity-90 max-w-md">
@@ -24,13 +17,12 @@ export default function LogosSection() {
             for individuals, businesses, local startups, and university
             projects.
           </p>
-          <p className="mt-8 text-sm font-medium opacity-80">Date: 2021 - 2025</p>
+          <p className="mt-8 text-sm font-medium opacity-80">
+            Date: 2021 - 2026
+          </p>
         </div>
 
-        
-        <div
-          className="lg:col-span-8 grid grid-cols-1 md:grid-cols-3 gap-6 relative"
-        >
+        <div className="lg:col-span-8 grid grid-cols-1 md:grid-cols-3 gap-6 relative">
           <img
             src="https://placehold.co/400x400/1c2b4b/FFF?text=Logo+1"
             alt="Logo 1"

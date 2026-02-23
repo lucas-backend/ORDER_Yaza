@@ -6,17 +6,17 @@ export default function Marquee() {
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
             <i className="fa-solid fa-star-of-life text-sm"></i>
           </span>
-          <span>2025</span>
+          <span>2026</span>
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
-            S
+            Y
           </span>
           <span>YAZA NURZAHIRA</span>
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
             <i className="fa-solid fa-star-of-life text-sm"></i>
           </span>
-          <span>2025</span>
+          <span>2026</span>
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
-            S
+            Y
           </span>
           <span>PORTFOLIO</span>
         </div>
@@ -25,17 +25,17 @@ export default function Marquee() {
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
             <i className="fa-solid fa-star-of-life text-sm"></i>
           </span>
-          <span>2025</span>
+          <span>2026</span>
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
-            S
+            Y
           </span>
           <span>YAZA NURZAHIRA</span>
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
             <i className="fa-solid fa-star-of-life text-sm"></i>
           </span>
-          <span>2025</span>
+          <span>2026</span>
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
-            S
+            Y
           </span>
           <span>PORTFOLIO</span>
         </div>
@@ -44,17 +44,17 @@ export default function Marquee() {
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
             <i className="fa-solid fa-star-of-life text-sm"></i>
           </span>
-          <span>2025</span>
+          <span>2026</span>
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
-            S
+            Y
           </span>
           <span>YAZA NURZAHIRA</span>
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
             <i className="fa-solid fa-star-of-life text-sm"></i>
           </span>
-          <span>2025</span>
+          <span>2026</span>
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
-            S
+            Y
           </span>
           <span>PORTFOLIO</span>
         </div>
@@ -63,17 +63,17 @@ export default function Marquee() {
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
             <i className="fa-solid fa-star-of-life text-sm"></i>
           </span>
-          <span>2025</span>
+          <span>2026</span>
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
-            S
+            Y
           </span>
           <span>YAZA NURZAHIRA</span>
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
             <i className="fa-solid fa-star-of-life text-sm"></i>
           </span>
-          <span>2025</span>
+          <span>2026</span>
           <span className="border-2 border-primary rounded-full w-8 h-8 flex items-center justify-center">
-            S
+            Y
           </span>
           <span>PORTFOLIO</span>
         </div>
