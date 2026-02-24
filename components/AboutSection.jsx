@@ -28,9 +28,6 @@ export default function AboutSection() {
             <p className="text-sm opacity-90 mb-1">
               <i className="fa-solid fa-envelope mr-2"></i>yaza.nurzahira@icloud.com
             </p>
-            <p className="text-sm opacity-90">
-              <i className="fa-brands fa-behance mr-2"></i>behance.net/yazanurzahira
-            </p>
           </div>
         </div>
 
