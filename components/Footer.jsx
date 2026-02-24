@@ -20,7 +20,7 @@ export default function Footer() {
           </svg>
         </div>
 
-        <h1 className="font-display text-5xl sm:text-7xl md:text-9xl font-bold tracking-tight text-primary uppercase leading-none drop-shadow-lg mb-6 hover:scale-105 transition duration-500 cursor-default">
+        <h1 className="font-display text-5xl sm:text-7xl md:text-9xl font-bold text-primary uppercase leading-none drop-shadow-lg mb-6 hover:scale-105 transition duration-500 cursor-default">
           Thanks for
           <br />
           Coming!

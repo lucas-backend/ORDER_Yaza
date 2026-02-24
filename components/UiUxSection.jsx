@@ -9,7 +9,7 @@ export default function UiUxSection() {
           <p className="text-sm font-medium tracking-wide uppercase opacity-70 mb-6">
             Portfolio - UX / UI Design
           </p>
-          <h2 className="text-6xl md:text-8xl font-display font-bold text-[#0F1E36] uppercase tracking-tighter mb-8 leading-none">
+          <h2 className="text-6xl md:text-8xl font-display font-bold text-[#0F1E36] uppercase  mb-8 leading-none tracking-wider">
             VITAE
           </h2>
           <p className="text-base md:text-lg leading-relaxed font-light opacity-90 mb-8">

@@ -15,6 +15,7 @@ export default function Home() {
       <HeroSection />
       <Marquee />
       <AboutSection />
+      <Marquee />
       <LogosSection />
       <Marquee />
       <VisualIdentitySection />

@@ -4,19 +4,12 @@ export default function VisualIdentitySection() {
       id="visual-identity"
       className="relative w-full min-h-screen flex items-center justify-center py-20 px-4 md:px-12 bg-[#fbf2e5][#111111]"
     >
-      <div
-        className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center"
-      >
-        
+      <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
         <div className="lg:col-span-4 flex flex-col justify-center h-full">
-          <p
-            className="text-sm font-light uppercase tracking-widest opacity-80 mb-6"
-          >
+          <p className="text-sm font-light uppercase tracking-widest opacity-80 mb-6">
             Portfolio - Visual Identity
           </p>
-          <h2
-            className="text-5xl lg:text-7xl font-display font-bold text-visual-primary uppercase tracking-tighter mb-8 leading-none"
-          >
+          <h2 className="text-5xl lg:text-7xl font-display font-bold text-visual-primary uppercase  mb-8 leading-none tracking-wider">
             FESTILEC
           </h2>
           <p className="text-base leading-relaxed font-light opacity-90 mb-4">
@@ -31,10 +24,7 @@ export default function VisualIdentitySection() {
           <p className="text-sm font-medium opacity-80">Date: 2023</p>
         </div>
 
-        
-        <div
-          className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-6 w-full h-full"
-        >
+        <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-6 w-full h-full">
           <img
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuDE5ISTZG35ODTz3rucfauUU0L4GGLPVrBzYW0UWidc8qM5_rESPel1910AhSSFs3fno4PbJkL-ktk4YxEjl2lpQhiQvKM7XVbJSp1CVG4CAbpXg4NVjj7uAz-0kvvasGyQ_Va7wLxmpgNd0JlMtwfkz53f1yzNEn0-7W1pY5B2vcpKVkM0_DLRbjpT9zV-qTediedyWzdGuOV8He54njScR_ci75eXYtkhWYlUkFrvRkuAcaTqg_enWIX_TUr7jm0ICo6QuHbkzdU1"
             alt="Festilec dark"
