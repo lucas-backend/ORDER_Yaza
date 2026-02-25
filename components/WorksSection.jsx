@@ -4,6 +4,8 @@ export default function WorksSection() {
       id: 1,
       title: "Project Alpha",
       category: "UI/UX Design",
+      description:
+        "A comprehensive redesign focusing on user journey and accessibility.",
       image:
         "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&q=80",
       link: "#",
@@ -12,6 +14,7 @@ export default function WorksSection() {
       id: 2,
       title: "Project Beta",
       category: "Graphic Design",
+      description: "Visual identity and branding package for a local startup.",
       image:
         "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&q=80",
       link: "#",
@@ -20,6 +23,7 @@ export default function WorksSection() {
       id: 3,
       title: "Project Gamma",
       category: "Video Editing",
+      description: "Promotional video campaign targeting young professionals.",
       image:
         "https://images.unsplash.com/photo-1536240478700-b869070f9279?w=500&q=80",
       link: "#",
@@ -28,6 +32,7 @@ export default function WorksSection() {
       id: 4,
       title: "Project Delta",
       category: "Photography",
+      description: "Product photography series for an e-commerce platform.",
       image:
         "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500&q=80",
       link: "#",
@@ -49,29 +54,34 @@ export default function WorksSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {works.map((work) => (
-            <a
+            <div
               key={work.id}
-              href={work.link}
-              className="group relative block overflow-hidden rounded-2xl aspect-[4/3] bg-gray-100 shadow-sm hover:shadow-xl transition-all duration-500"
+              className="flex flex-col bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300"
             >
-              <div
-                className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                style={{ backgroundImage: `url(${work.image})` }}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
-
-              <div className="absolute inset-0 p-8 flex flex-col justify-end translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                <p className="text-primary font-medium text-sm mb-2 uppercase tracking-wider">
+              <div className="w-full aspect-4/3 bg-gray-200 relative group overflow-hidden">
+                <img
+                  src={work.image}
+                  alt={work.title}
+                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <div className="p-6 flex flex-col grow text-left">
+                <p className="text-primary font-medium text-xs mb-2 uppercase tracking-wider">
                   {work.category}
                 </p>
-                <h3 className="text-2xl md:text-3xl font-bold text-white">
+                <h2 className="text-xl font-bold text-gray-900 mb-2">
                   {work.title}
-                </h3>
-
-                <div className="mt-4 flex items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100">
-                  <span className="mr-2 text-sm font-medium">View Project</span>
+                </h2>
+                <p className="text-sm text-gray-400 mb-6 grow leading-relaxed">
+                  {work.description}
+                </p>
+                <a
+                  href={work.link}
+                  className="flex items-center text-sm font-medium text-gray-900 hover:text-primary transition-colors group mt-auto w-fit"
+                >
+                  View Project
                   <svg
-                    className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+                    className="w-4 h-4 ml-1.5 group-hover:translate-x-1 transition-transform"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -80,12 +90,12 @@ export default function WorksSection() {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                      d="M14 5l7 7m0 0l-7 7m7-7H3"
                     />
                   </svg>
-                </div>
+                </a>
               </div>
-            </a>
+            </div>
           ))}
         </div>
 
