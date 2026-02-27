@@ -122,7 +122,7 @@ export default function Footer() {
             <span>&copy; {new Date().getFullYear()} Yaza Nurzahira</span>
           </div>
           <div className="flex items-center gap-4">
-            <span>Jakarta, Indonesia</span>
+            <span>Bandar Lampung, Indonesia</span>
           </div>
         </div>
       </div>

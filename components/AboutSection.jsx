@@ -68,17 +68,40 @@ export default function AboutSection() {
                 Skills
               </h4>
               <div className="flex flex-wrap gap-3">
-                <div className="bg-gray-100 text-[#FF9A00] w-12 h-12 rounded-xl flex items-center justify-center text-xl font-bold border border-gray-200 shadow-sm transition hover:scale-110">
-                  Ai
+                <div className="bg-gray-100 w-12 h-12 rounded-xl flex items-center justify-center border border-gray-200 shadow-sm transition hover:scale-110 p-2 text-gray-800">
+                  <img
+                    src="/images/skills/figma.webp"
+                    alt="Figma"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
-                <div className="bg-gray-100 text-[#31A8FF] w-12 h-12 rounded-xl flex items-center justify-center text-xl font-bold border border-gray-200 shadow-sm transition hover:scale-110">
-                  Ps
+                <div className="bg-gray-100 w-12 h-12 rounded-xl flex items-center justify-center border border-gray-200 shadow-sm transition hover:scale-110 p-2 text-gray-800">
+                  <img
+                    src="/images/skills/alightmotion.webp"
+                    alt="Alight Motion"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
-                <div className="bg-gray-100 text-[#D8A5FF] w-12 h-12 rounded-xl flex items-center justify-center text-xl font-bold border border-gray-200 shadow-sm transition hover:scale-110">
-                  Ae
+                <div className="bg-gray-100 w-12 h-12 rounded-xl flex items-center justify-center border border-gray-200 shadow-sm transition hover:scale-110 p-2 text-gray-800">
+                  <img
+                    src="/images/skills/ibispaint.webp"
+                    alt="Ibis Paint"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
-                <div className="bg-gray-100 text-gray-800 w-12 h-12 rounded-xl flex items-center justify-center text-xl font-bold border border-gray-200 shadow-sm transition hover:scale-110">
-                  <i className="fa-brands fa-figma"></i>
+                <div className="bg-gray-100 w-12 h-12 rounded-xl flex items-center justify-center border border-gray-200 shadow-sm transition hover:scale-110 p-2 text-gray-800">
+                  <img
+                    src="/images/skills/canva.webp"
+                    alt="Canva"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <div className="bg-gray-100 w-12 h-12 rounded-xl flex items-center justify-center border border-gray-200 shadow-sm transition hover:scale-110 p-2 text-gray-800">
+                  <img
+                    src="/images/skills/capcut.webp"
+                    alt="Capcut"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
               </div>
             </div>
@@ -121,7 +144,7 @@ export default function AboutSection() {
                   </li>
                   <li>
                     <div className="font-bold text-primary">
-                      Publication, Documentation, and Decoration Member
+                      Publication, Documentation, and Decoration Staff
                     </div>
                     <div className="opacity-80">
                       Electrical Engineering in Action 2025 (University Level)

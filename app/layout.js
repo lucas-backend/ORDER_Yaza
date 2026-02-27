@@ -23,7 +23,7 @@ const oswald = Oswald({
 });
 
 export const metadata = {
-  title: "Sebas Baldeon Portfolio",
+  title: "Yaza Nurzahira Portfolio",
   description: "Portfolio by Yaza Nurzahira",
 };
 
